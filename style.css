@@ -34,3 +34,27 @@
   width: 10%;
   height: 10%;
 }
+.mainForm {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  background: #f9fafb;
+}
+.topText {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 34px;
+  width: 50%;
+  padding-left: 10%;
+}
+.whitebg {
+  background: white;
+}
+.inputBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
